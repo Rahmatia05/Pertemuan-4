@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+</style>
+	<title>Pertemuan 2</title>
+	</head>
+	<body>
+	<h1>Biodata</h1>
+	<table border="2" cellpadding="5" cellspacing="0">
+		<tr>
+			<th>NAMA</th>
+			<th>:</th>
+			<th>Rahmatia</th>
+		</tr>
+		<tr>
+			<td> NIM</td>
+			<th>:</th>
+			<td> D212111034</td>
+		</tr>
+		<tr>
+			<td>ALAMAT</td>
+			<th>:</th>
+			<td> Sulawesi Tenggara </td>
+		</tr>
+		<tr>
+			<td>HOBI</td>
+			<th>:</th>
+			<td>
+				<ul>
+					<li>Volly</li>
+					<li>Membaca Novel</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+				<button onclick="myalaret()">simpan</button>
+				<script>
+					function myalaret() {
+					alert("data berhasil disimpan");
+
+	}
+				</script>
+			</center>
+		</body>
+	</html>
+
+</body>
+</html>

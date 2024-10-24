@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TUGAS PERTEMUAN 3</title>
+	<img src="fotoku.jpg">
+</head>
+<style>
+	body{
+	background-color: blue;
+}
+img{
+	scale: width:200px;height: 150px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+table{
+	font-family: monospace;
+	margin-right: auto;
+	margin-left: auto;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 10px;
+	background-color: blueviolet ;
+	color: white;
+}
+tbody tr:hover{
+	background-color: whitesmoke;
+	color: green;
+}
+button{
+	font-family: monospace;
+	font-size: 1.1em;
+	background-color: lightcyan;
+	color: grey;
+	border-collapse: 2px solid bllack;
+	box-shadow: 4px 4px 4px;
+}
+button:hover:focus,button:active{
+	color: orange;
+	background-color: black;
+	cursor: pointer;
+}
+</style>
+	<title>Pertemuan 2</title>
+	</head>
+	<body>
+		<center>
+	<h1>Biodata</h1>
+	<table border="2" cellpadding="5" cellspacing="0">
+		<tr>
+			<th>NAMA</th>
+			<th>:</th>
+			<th>Rahmatia</th>
+		</tr>
+		<tr>
+			<td> NIM</td>
+			<th>:</th>
+			<td> D212111034</td>
+		</tr>
+		<tr>
+			<td>ALAMAT</td>
+			<th>:</th>
+			<td> Sulawesi Tenggara </td>
+		</tr>
+		<tr>
+			<td>HOBI</td>
+			<th>:</th>
+			<td>
+				<ul>
+					<li>Volly</li>
+					<li>Membaca Novel</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	[====-]
+	<button onclick="myalaret()">simpan</button>
+<script>
+	function myalaret() {
+		alert("data berhasil disimpan");
+
+	}
+</script>
+</center>
+</body>
+</html>
+
+</body>
+</html>

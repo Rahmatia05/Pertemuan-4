@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            background-color: palevioletred;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 20px;
+        }
+
+        .container {
+            background-color: pink;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 400px;
+        }
+
+        .profile-pic {
+            width: 200px;  
+            height: 300px;
+            object-fit: cover; 
+            margin-bottom: 20px;
+            border: 3px solid white; 
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 3px solid white;
+            padding: 20px;
+        }
+
+        td {
+            text-align: left;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 50px;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="file:///D:/TUGAS%20SELI%20SMST%207/pp.jpeg" alt="Profile Picture" class="profile-pic">
+
+
+        <!-- tabel biodata -->
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td>Seli Pebriani</td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td>:</td>
+                <td>D212111016</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td>Bandung</td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <ul>
+                        <li>Membaca</li>
+                        <li>Menonton</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
